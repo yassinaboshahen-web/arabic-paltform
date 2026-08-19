@@ -1,0 +1,6 @@
+{
+  "name": "أكاديمية أحمد محمود",
+  "description": "أكاديمية رقمية رائدة لتعليم وإتقان اللغة العربية بإشراف الأستاذ أحمد محمود",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

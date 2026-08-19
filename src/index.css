@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    font-family: 'IBM Plex Sans Arabic', 'Cairo', system-ui, -apple-system, sans-serif;
+    scroll-behavior: smooth;
+    background-color: #070707;
+    color: #F5F1E8;
+    direction: rtl;
+  }
+
+  /* Custom subtle luxury scrollbar */
+  ::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #070707;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #292521;
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #3D3731;
+  }
+}
+
+/* Atmospheric subtle luxury gradients & glows */
+.glow-burgundy {
+  background: radial-gradient(circle at center, rgba(101, 31, 42, 0.30) 0%, rgba(101, 31, 42, 0) 70%);
+}
+
+.glow-champagne {
+  background: radial-gradient(circle at center, rgba(214, 185, 120, 0.16) 0%, rgba(214, 185, 120, 0) 70%);
+}
+
+.glow-burgundy-soft {
+  background: radial-gradient(circle at center, rgba(101, 31, 42, 0.18) 0%, rgba(101, 31, 42, 0) 70%);
+}
+
+/* Subtle grid pattern overlay with warm tone */
+.bg-grid-pattern {
+  background-size: 48px 48px;
+  background-image: 
+    linear-gradient(to right, rgba(214, 185, 120, 0.025) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(214, 185, 120, 0.025) 1px, transparent 1px);
+}
+
+.bg-radial-fade {
+  mask-image: radial-gradient(ellipse at center, black 35%, transparent 75%);
+}
+
+
